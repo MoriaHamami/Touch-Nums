@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Count Numbers</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <h1> Count the Numbers </h1>
+
+    <div class="box">
+        <button id="btn" onclick="onToggleGame(this)">New Game</button>
+
+        <div class="level">
+            <p>Choose your level:</p>
+            <input onclick="easyLevel()" type="radio" class="easy" name="level">
+            <label for="easy">Easy</label>
+            <input onclick="mediumLevel()" type="radio" class="medium" name="level">
+            <label for="medium">Medium</label>
+            <input onclick="challengingLevel()" type="radio" class="challenging" name="level">
+            <label for="challenging">Challenging</label>
+        </div>
+
+        <div class="top-container">
+            <div class="next-number">Next Number:<br /><span>1</span></div>
+            <div class="container">
+                Game Time
+                <div class="timer">00.00</div>
+            </div>
+        </div>
+
+        <table border="3" cellpadding="10">
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(99, 37, 81)
+}
+
+body {
+    background-color: lightblue;
+}
+
+.box {
+    background-color: rgb(171, 171, 231);
+    border: solid rgb(26, 26, 91);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(132, 187, 219);
+    border: 3px solid rgb(20, 70, 105);
+    color: rgb(8, 68, 136);
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(162, 206, 217);
+    cursor: pointer;
+}
+
+.level {
+    background-color: rgb(222, 171, 231);
+    border: solid rgb(26, 26, 91);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 110%;
+    font-weight: bold;
+    color: #573905;
+    text-align: center;
+    padding: 1%;
+}
+
+p {
+    font-size: 130%;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.top-container {
+    margin: 10px;
+}
+
+.next-number {
+    background-color: rgb(222, 171, 231);
+    border: solid rgb(26, 26, 91);
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.next-number span {
+    color: #8f6215;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100px;
+    flex-direction: column;
+    background: rgb(222, 171, 231);
+    border: solid rgb(26, 26, 91);
+    border-radius: 5px;
+    margin-right: 20px;
+    float: right;
+}
+
+.timer {
+    /* display: inline-block; */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #8f6215;
+}
+
+table {
+    margin-left: 23%;
+    margin-right: 30%;
+}
+
+.board td {
+    width: 50px;
+    height: 20px;
+    color: #53401f;
+    text-align: center;
+    background-color: rgb(224, 224, 116);
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.board td:hover {
+    background-color: rgb(251, 201, 181);
+    cursor: pointer;
+}
